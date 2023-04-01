@@ -45,49 +45,49 @@
   <div>
     <?php 
     // ----------------------- TASK 4 -------------------
-    $array = array(12, 45, 10, 25); 
+    $arr1 = array(12, 45, 10, 25); 
     $sum = 0; 
     //Sum
-    foreach ($array as $value) { $sum += $value; } 
+    foreach ($arr1 as $value) { $sum += $value; } 
     //Average
-    $avg = $sum / count($array);
+    $avg = $sum / count($arr1);
 
     echo "Sum = " . $sum . "<br>"; 
     echo "Average = " . $avg . "<br>";
 
     // Sorts the array in reverse order 
-    rsort($array); 
+    rsort($arr1); 
     echo "Sorted Array: "; 
-    foreach ($array as $value) { echo $value . " "; }
+    foreach ($arr1 as $value) { echo $value . " "; }
     ?>
   </div>
 
   <div>
     <?php 
     // ----------------------- TASK 5 -------------------
-    $array = array("Sara" => 31, "John" => 41, "Walaa" => 39, "Ramy" => 40); 
+    $arr2 = array("Sara" => 31, "John" => 41, "Walaa" => 39, "Ramy" => 40); 
     // Sort by value in ascending order
-    asort($array); 
+    asort($arr2); 
     echo "Sorted by value in ascending order: <br>"; 
-    print_r($array); 
+    print_r($arr2); 
     echo "<br>"; 
 
     // Sort by key in ascending order
-    ksort($array); 
+    ksort($arr2); 
     echo "Sorted by key in ascending order: <br>"; 
-    print_r($array);
+    print_r($arr2);
     echo "<br>";
 
     // Sort by value in descending order 
-    arsort($array); 
+    arsort($arr2); 
     echo "Sorted by value in descending order: <br>"; 
-    print_r($array); 
+    print_r($arr2); 
     echo "<br>"; 
     
     // Sort by key in descending order 
-    krsort($array); 
+    krsort($arr2); 
     echo "Sorted by key in descending order: <br>"; 
-    print_r($array); 
+    print_r($arr2); 
     ?>
   </div>
 </body>
