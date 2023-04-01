@@ -13,7 +13,7 @@
     $text = "This is \nYasmina"; 
     echo nl2br($text);
     // Another Way 
-    echo " THis is <br> Yasmina";
+    echo "THis is <br> Yasmina";
     ?>
   </div>
 
