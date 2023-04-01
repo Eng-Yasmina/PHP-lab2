@@ -76,6 +76,7 @@
     // Sort by key in descending order 
     krsort($array); 
     echo "Sorted by key in descending order: <br>"; 
-    print_r($array); ?>
+    print_r($array); 
+    ?>
 </body>
 </html>
