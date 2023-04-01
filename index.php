@@ -36,8 +36,8 @@
     
 
   <div>
-      <?php 
-      // ----------------------- TASK 3 -------------------
+    <?php 
+    // ----------------------- TASK 3 -------------------
     foreach ($_SERVER as $key => $value) { echo $key . ": " . $value . "<br>"; } 
     ?>
   </div>
@@ -47,11 +47,16 @@
     // ----------------------- TASK 4 -------------------
     $array = array(12, 45, 10, 25); 
     $sum = 0; 
+    //Sum
     foreach ($array as $value) { $sum += $value; } 
+    //Average
     $avg = $sum / count($array);
+
     echo "Sum = " . $sum . "<br>"; 
     echo "Average = " . $avg . "<br>";
-    rsort($array); // Sorts the array in reverse order 
+    
+    // Sorts the array in reverse order 
+    rsort($array); 
     echo "Sorted Array: "; 
     foreach ($array as $value) { echo $value . " "; }
     ?>
