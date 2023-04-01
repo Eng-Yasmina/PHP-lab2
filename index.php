@@ -7,39 +7,42 @@
     <title>Document</title>
 </head>
 <body>
-<div><?php
+  <div>
+    <?php
     // ----------------------- TASK 1 -------------------
     $text = "This is \nYasmina"; 
     echo nl2br($text);
     // Another Way 
     echo " THis is <br> Yasmina";
-    ?></div>
+    ?>
+  </div>
 
-    <div><?php
+  <div>
+    <?php
     // ----------------------- TASK 2 -------------------
     echo "1. strrev(): This function returns a string in reverse order."
     $string = "Hello World";
     echo strrev($string);   //Output: dlroW olleH
-    ?></div>
 
-    <div><?php
-    echo "2. substr(): This function returns a part of a string based on a specified starting position and length."
+    echo "<br> 2. substr(): This function returns a part of a string based on a specified starting position and length."
     $string2 = "Hello World";
     echo substr($string2, 0, 5); //Output: Hello
-    ?></div>
 
-    <div><?php
-    echo "3. str_replace(): This function replaces all occurrences of a specified string with another string."
+    echo "<br> 3. str_replace(): This function replaces all occurrences of a specified string with another string."
     $string3 = "Hello World";
     echo str_replace("World", "Universe", $string3); //Output: Hello Universe
-    ?></div>
+    ?>
+  </div>
     
 
-    <div><?php 
+  <div>
+      <?php 
       // ----------------------- TASK 3 -------------------
     foreach ($_SERVER as $key => $value) { echo $key . ": " . $value . "<br>"; } 
-    ?></div>
+    ?>
+  </div>
 
+  <div>
     <?php 
     // ----------------------- TASK 4 -------------------
     $array = array(12, 45, 10, 25); 
@@ -50,9 +53,11 @@
     echo "Average = " . $avg . "<br>";
     rsort($array); // Sorts the array in reverse order 
     echo "Sorted Array: "; 
-    foreach ($array as $value) { echo $value . " "; } ?>
+    foreach ($array as $value) { echo $value . " "; }
+    ?>
+  </div>
 
-
+  <div>
     <?php 
     // ----------------------- TASK 5 -------------------
     $array = array("Sara" => 31, "John" => 41, "Walaa" => 39, "Ramy" => 40); 
@@ -78,5 +83,6 @@
     echo "Sorted by key in descending order: <br>"; 
     print_r($array); 
     ?>
+  </div>
 </body>
 </html>
