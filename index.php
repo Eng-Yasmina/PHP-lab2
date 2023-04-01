@@ -54,7 +54,7 @@
 
     echo "Sum = " . $sum . "<br>"; 
     echo "Average = " . $avg . "<br>";
-    
+
     // Sorts the array in reverse order 
     rsort($array); 
     echo "Sorted Array: "; 
@@ -74,7 +74,8 @@
 
     // Sort by key in ascending order
     ksort($array); 
-    echo "Sorted by key in ascending order: <br>"; print_r($array);
+    echo "Sorted by key in ascending order: <br>"; 
+    print_r($array);
     echo "<br>";
 
     // Sort by value in descending order 
