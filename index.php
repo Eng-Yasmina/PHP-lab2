@@ -60,17 +60,18 @@
     asort($array); 
     echo "Sorted by value in ascending order: <br>"; 
     print_r($array); 
-    echo "<br><br>"; 
+    echo "<br>"; 
 
     // Sort by key in ascending order
     ksort($array); 
     echo "Sorted by key in ascending order: <br>"; print_r($array);
-    echo "<br><br>";
+    echo "<br>";
 
     // Sort by value in descending order 
     arsort($array); 
     echo "Sorted by value in descending order: <br>"; 
-    print_r($array); echo "<br><br>"; 
+    print_r($array); 
+    echo "<br>"; 
     
     // Sort by key in descending order 
     krsort($array); 
